@@ -1,0 +1,73 @@
+<!--
+make Youtube Cinematic
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.0/
+--!>
+
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>SETTINGS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="/css/w3.css">
+		<link rel="stylesheet" type="text/css" href="/css/settings.css">
+		<script type="text/javascript" src="/lib/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="/js/settings.js"></script>
+	</head>
+
+	<body>
+		<div class="settab-container">
+
+			<div>
+				<div id="opacityTabDiv" class="settab-width settab-bottombar-normal settab-hover settab-padding settab-title">Opacity</div>
+				<div id="autorunTabDiv" class="settab-width settab-bottombar-normal settab-hover settab-padding settab-title">Autorun</div>
+			</div>
+
+			<div id="SettingBodyDiv" class="settab-container city">
+				<h2 class="body-title">Settings</h2>
+				<div id="settingMainDiv">
+					<p>Click tabs what you want</p>
+				</div>
+			</div>
+
+			<div id="opacityBodyDiv" class="settab-container city">
+				<h2 class="body-title">Opacity Setting</h2>
+				<div id="opacityMainDiv">
+					<button id="opacityDownButton">-</button>
+					<span id="opacityText"></span>
+					<button id="opacityUpButton">+</button>
+				</div>
+			</div>
+
+			<div id="autorunBodyDiv" class="settab-container city">
+				<h2 class="body-title">Autorun Setting</h2>
+				<div id="autorunMainDiv">
+					<input type="checkbox" id="autorunCheckbox"></input>
+					<span id="autorunText">
+						The shadow will appear/disppear automatically.
+					</span>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+

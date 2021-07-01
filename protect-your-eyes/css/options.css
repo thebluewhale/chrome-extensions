@@ -1,0 +1,100 @@
+/*
+	protect Your Eyes
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+	To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.0/
+*/
+
+#optionBody {
+	width: 400px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+#minDiv {
+	width: 400px;
+	height: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#maxDiv {
+	width: 400px;
+	height: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#saveDiv { 
+	width: 400px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+#minMinusBtn {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	float: left;
+	left: 100px;
+	vertical-align: middle;
+}
+
+#minPlusBtn {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	float: right;
+	right: 100px;
+	vertical-align: middle;
+}
+
+#maxMinusBtn {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	float: left;
+	left: 100px;
+	vertical-align: middle;
+}
+
+#maxPlusBtn {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	float: right;
+	right: 100px;
+	vertical-align: middle;
+}
+
+#defaultBtn {
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	float: left;
+	left: 100px;
+	vertical-align: middle;
+}
+
+#saveBtn {
+	position: absolute;
+	width: 60px;
+	height: 20px;
+	float: right;
+	right: 100px;
+	vertical-align: middle;
+}
+

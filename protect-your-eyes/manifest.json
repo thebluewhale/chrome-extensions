@@ -1,0 +1,33 @@
+{
+	"author": "Jihwan Marc Kim",
+	"description": "Protect your eyes",
+	"background": {
+		"page": "html/background.html",
+		"persistent": false
+	},
+	"browser_action": {
+		"default_icon": {
+			"19": "icon/icon.png",
+			"38": "icon/icon.png"
+		},
+		"default_title": "Protect your eyes"
+	},
+	"options_ui": {
+		"page": "html/options.html",
+		"chrome_style": true
+	},
+	"icons": {
+		"128": "icon/icon.png",
+		"16": "icon/icon.png"
+	},
+	"manifest_version": 2,
+	"name": "Protect your eyes",
+	"permissions": [
+		"contextMenus",
+		"notifications",
+		"tabs",
+		"storage",
+		"\u003Call_urls>"
+	],
+	"version": "1.1"
+}

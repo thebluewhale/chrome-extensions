@@ -1,0 +1,110 @@
+/*
+	protect Your Eyes
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+	To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.0/
+*/
+
+.city {
+	display: none;
+}
+
+#settingMainDiv {
+	width: 100%;
+	height: 55px;
+}
+
+#opacityMainDiv {
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#opacityDownButton {
+	position: absolute;
+	float: left;
+	left: 80px;
+	width: 15px;
+	height: 15px;
+}
+
+#opacityUpButton {
+	position: absolute;
+	float: right;
+	right: 80px;
+	width: 15px;
+	height: 15px;
+}
+
+#opacityText {
+	font-size: 20px;
+}
+
+
+#autorunMainDiv {
+	width: 100%;
+	height: 55px;
+	vertical-align: middle;
+}
+
+#autorunCheckbox {
+	position: absolute;
+	float: left;
+	left: 50px; 
+	height: 20px;
+	width: 20px;
+}
+
+#autorunText {
+	position: absolute;
+	left: 90px;
+}
+
+.settab-hover:hover {
+	color: #000!important;
+	background-color: #f1f1f1!important;
+}
+
+.settab-width {
+	float: left;
+	width: 50%;
+}
+
+.settab-title {
+	font-size: 22px;
+}
+
+.settab-bottombar-normal {
+	border-bottom: 6px solid #ccc!important;
+}
+
+.settab-bottombar-selected {
+	border-bottom: 6px solid #77c!important;
+}
+
+.settab-padding {
+	padding: 8px 16px!important;
+}
+
+.settab-container {
+	padding: 0.01em 16px;
+}
+
+.body-title {
+	margin: 75px 5px 20px 5px;
+	font-size: 20px;
+}

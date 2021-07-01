@@ -1,0 +1,31 @@
+{
+	"author": "Jihwan Marc Kim",
+	"description": "Make Youtube Cinematic",
+	"background": {
+		"page": "html/background.html",
+		"persistent": false
+	},
+	"browser_action": {
+		"default_icon": {
+			"19": "icons/icon.png",
+			"38": "icons/icon.png"
+		},
+		"default_title": "Make Youtube Cinematic"
+	},
+	"options_ui": {
+		"page": "html/settings.html",
+		"chrome_style": true
+	},
+	"icons": {
+		"128": "icons/icon.png",
+		"16": "icons/icon.png"
+	},
+	"manifest_version": 2,
+	"name": "Make Youtube Cinematic",
+	"permissions": [
+		"tabs",
+		"storage",
+		"<all_urls>"
+	],
+	"version": "1.3"
+}
